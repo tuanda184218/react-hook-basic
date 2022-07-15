@@ -4,7 +4,6 @@ const DisplayTodo = (props) => {
         props.deleteTodoInParent(id);
     }
     const listtodo = props.childData;
-    console.log("check data :  ", props)
     return (
         <div>
             <div>List todo:</div>
